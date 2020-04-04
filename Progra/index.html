@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SpotifyS</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+<!--- Home --->
+<div id="home">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+	<a class="navbar-brand" href="#"><img src="img/maboi.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="#navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">	
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Services</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#tracks">Musica</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#genre">Generos</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#albums">Albums</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#artists">Artistas</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#employee">Empleados</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#invoice">Facturas</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#customer">Cliente</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#playlists">Playlists</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#media">Tipos de media</a>
+
+				</div>
+			</li>
+		</ul>
+	</div>
+</nav>
+<!-- Fin del Navbar -->
+
+<!-- Land Section -->
+
+<div class="landing"> 
+	<div class="home-wrap">
+		<div class="home-inner"> </div>
+	</div>
+</div>
+
+<div class="caption text-center ">
+	<h1>Bienvenido a SpotifyS</h1>
+	<h3>La mejor pagina para escuchar musica</h3>
+	<a class="btn btn-outline-light btn-lg" href="#customer">Registrate ahora!</a>
+</div>
+
+<!-- End Land Section -->
+</div>
+
+<!--- Final del Home --->
+
+<!--- Customer --->
+
+<div id="customer" class="offset">
+	<div class="col-12 narrow text-center">
+		<h1>Registrate para escuchar tu musica favorita</h1>
+
+		<form>
+			<label>Nombre y Apellido</label>
+  			<div class="row">
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu nombre">
+    			</div>
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu apellido">
+    			</div>
+  			</div>
+  			<label>Compáñia y dirección</label>
+  			<div class="row">
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu compáñia">
+    			</div>
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu dirección">
+    			</div>
+  			</div>
+  			<label>Ciudad y estado</label>
+  			<div class="row">
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu ciudad">
+    			</div>
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu estado">
+    			</div>
+  			</div>
+  			<label>Codigo postal y Telefono</label>
+  			<div class="row">
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu c.p">
+    			</div>
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu telefono">
+    			</div>
+  			</div>
+  			<label>Fax y Correo Electronico</label>
+  			<div class="row">
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu fax">
+    			</div>
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu correo electronico">
+    			</div>
+  			</div>
+  			<hr>
+  			<button type="submit" class="btn btn-primary">Registrarse</button>
+  			<button type="reset" class="btn btn-secondary" id="borrar">Cancelar</button>
+		</form>
+	</div>
+</div>
+
+<!--- Final del Customer --->
+
+<!--- Features --->
+
+<div class="jumbotron">
+	<div class="narrow text-center">
+		<div class="col-12">
+			<h3 class="heading">Novedades</h3>
+			<div class="heading-underline"></div>
+		</div>
+
+		<div class="row text-center">
+			<div class="col-md-4">
+				<div class="feature"> 
+					<i class="far fa-check-circle fa-4x" data-fa-transform="shrink-3 up-5"></i>
+					<h3>Frontend Bonito</h3>
+					<p>Todo este interfaz fue llevado a cabo gracias a la investigacion de los integrantes.</p>
+				</div>
+			</div>
+		
+
+			<div class="col-md-4">
+				<div class="feature"> 
+					<i class="fab fa-wpforms fa-4x" data-fa-transform="shrink-4 up-5"></i>
+					<h3>Agrega Contenido</h3>
+					<p>Puedes agregar contenido a la pagina mediante formularios.</p>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="feature"> 
+					<i class="fas fa-music fa-4x" data-fa-transform="shrink-4 up-5"></i>
+					<h3>Mucha Musica</h3>
+					<p>Gracias a que los usuarios pueden agregar contenido contamos con millones de pistas de musica a la mejor calidad.</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<!--- Fin de Features --->
+
+<!--- Pro --->
+
+<div id="resources" class="offset">
+	<div class="fixed-background"> 
+		<div class="row dark text-center">			
+			<div class="col-12">
+				<h3 class="heading">Estas son algunas de las cosas que puedes agregar</h3>
+				<div class="heading-underline"></div>
+			</div>
+
+			<div class="col-md-4">
+				<h3>Artistas</h3>
+				<div class="feature">
+					<i class="fas fa-users fa-3x"></i>
+				</div>
+				<p class="lead">Añade a tus artistas favoritos.</p>
+			</div>
+
+			<div class="col-md-4">
+				<h3>Musica</h3>
+				<div class="feature">
+					<i class="fas fa-music fa-3x"></i>
+				</div>
+				<p class="lead">Añade tus canciones favoritas.</p>
+			</div>
+
+			<div class="col-md-4">
+				<h3>Albums</h3>
+				<div class="feature">
+					<i class="fas fa-compact-disc fa-3x"></i>
+				</div>
+				<p class="lead">Por que no, tambien añade tus albums preferidos.</p>
+			</div>
+		</div>
+		<div class="fixed-wrap">
+			<div class="fixed">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- fin del pro --->
+
+
+<!--- Artists --->
+<div id="artists" class="offset">
+	<div class="jumbotron">
+		<div class="col-12 narrow text-center">
+			<h1>Artistas</h1> 
+			<form>
+				<div class="form-group">
+    				<label>Nombre del Artista</label>
+    				<input class="form-control"placeholder="Introduce el nombre de un artista">
+    				<small id="emailHelp" class="form-text text-muted">Puedes agregar artistas pequeños para ayudarlos a crecer.</small>
+  				</div>
+  				<hr>
+  				<button type="submit" class="btn btn-primary">Enviar</button>
+  				<button type="reset" class="btn btn-secondary" id="borrar">Cancelar</button>
+			</form>
+		</div>
+	</div>
+</div>
+<!--- Final del Artists --->
+
+<!--- Albums --->
+<div id="albums" class="offset">
+	
+	<div class="col-12 narrow text-center">
+			<h1>Albums</h1> 
+			<form>
+				<div class="form-group">
+    				<label>Nombre del Album</label>
+    				<input class="form-control"placeholder="Introduce el nombre de un album">
+  				</div>
+  				<hr>
+  				<button type="submit" class="btn btn-primary">Enviar</button>
+  				<button type="reset" class="btn btn-secondary" id="borrar">Cancelar</button>
+			</form>
+		</div>
+
+</div>
+<!--- Final del Albums --->
+
+<!--- Tracks --->
+<div id="tracks" class="offset">
+	
+	<div class="jumbotron">
+		<div class="col-12 narrow text-center">
+			<h1>Canciones</h1> 
+			<form>
+				<div class="form-group">
+    				<label>Nombre de la cancion</label>
+    				<input class="form-control"placeholder="Introduce el nombre de una cancion">
+    				<small id="emailHelp" class="form-text text-muted">Tambien puedes añadir covers.</small>
+  				</div>
+  				<hr>
+  				<button type="submit" class="btn btn-primary">Enviar</button>
+  				<button type="reset" class="btn btn-secondary" id="borrar">Cancelar</button>
+			</form>
+		</div>
+	</div>
+
+</div>
+<!--- Final del Tracks --->
+
+<!--- Playlists --->
+<div id="playlists" class="offset">
+	
+	<div class="col-12 narrow text-center">
+			<h1>Playlists</h1> 
+			<form>
+				<div class="form-group">
+    				<label>Añade tu Playlist</label>
+    				<input class="form-control"placeholder="Introduce el url de tu playlist">
+    				<small id="emailHelp" class="form-text text-muted">Para que compartas la musica que escuchas.</small>
+  				</div>
+  				<hr>
+  				<button type="submit" class="btn btn-primary">Enviar</button>
+  				<button type="reset" class="btn btn-secondary" id="borrar">Cancelar</button>
+			</form>
+		</div>
+
+</div>
+<!--- Final del Playlist --->
+
+<!--- Genre --->
+<div id="genre" class="offset">
+	
+	<div class="jumbotron">
+		<div class="col-12 narrow text-center">
+			<h1>Generos</h1> 
+			<form>
+				<div class="form-group">
+    				<label>Nombre de el genero</label>
+    				<input class="form-control"placeholder="Introduce el genero">
+    				<small id="emailHelp" class="form-text text-muted">Incluso puedes añadir generos.</small>
+  				</div>
+  				<hr>
+  				<button type="submit" class="btn btn-primary">Enviar</button>
+  				<button type="reset" class="btn btn-secondary" id="borrar">Cancelar</button>
+			</form>
+		</div>
+	</div>
+
+</div>
+<!--- Final del Genre --->
+
+<!--- MediaType --->
+<div id="media" class="offset">
+	
+	<div class="col-12 narrow text-center">
+			<h1>Tipos de media</h1> 
+			<form>
+				<div class="form-group">
+    				<label>Añade el Tipo de media</label>
+    				<input class="form-control"placeholder="Introduce el tipo de media">
+    				<small id="emailHelp" class="form-text text-muted">Si aun no esta agregalo.</small>
+  				</div>
+  				<hr>
+  				<button type="submit" class="btn btn-primary">Enviar</button>
+  				<button type="reset" class="btn btn-secondary" id="borrar">Cancelar</button>
+			</form>
+		</div>
+
+</div>
+<!--- Final del MediaType --->
+
+<div class="jumbotron">
+	<div class="narrow text-center">
+		<div class="col-12">
+			<h3 class="heading">¿Quieres trabajar aqui?</h3>
+			<div class="heading-underline"></div>
+		</div>
+
+		<div class="row text-center">
+			<div class="col-md-4">
+				<div class="feature"> 
+					<i class="fas fa-money-bill-wave fa-4x" data-fa-transform="shrink-3 up-5"></i>
+					<h3>Buena paga</h3>
+					<p>Tendras un salario estable.</p>
+				</div>
+			</div>
+		
+
+			<div class="col-md-4">
+				<div class="feature"> 
+					<i class="fas fa-desktop fa-4x" data-fa-transform="shrink-4 up-5"></i>
+					<h3>Maneja la pagina</h3>
+					<p>Deberas tener concocimentos en el desarrollo del backend.</p>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="feature"> 
+					<i class="fas fa-home fa-4x" data-fa-transform="shrink-4 up-5"></i>
+					<h3>Trabaja desde tu hogar</h3>
+					<p>Podras trabajar desde la comidad de tu casa.</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<!--- Employee --->
+<div id="employee" class="offset">
+	
+	<div class="col-12 narrow text-center">
+		<h1>Registrate para Trabajar aqui</h1>
+
+		<form>
+			<label>Nombre y Apellido</label>
+  			<div class="row">
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu nombre">
+    			</div>
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu apellido">
+    			</div>
+  			</div>
+  			
+  			<label>Compáñia y dirección</label>
+  			<div class="row">
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu compáñia">
+    			</div>
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu dirección">
+    			</div>
+  			</div>
+  			<label>Ciudad y estado</label>
+  			<div class="row">
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu ciudad">
+    			</div>
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu estado">
+    			</div>
+  			</div>
+  			<label>Codigo postal y Telefono</label>
+  			<div class="row">
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu c.p">
+    			</div>
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu telefono">
+    			</div>
+  			</div>
+  			<label>Fax y Correo Electronico</label>
+  			<div class="row">
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu fax">
+    			</div>
+    			<div class="col">
+      				<input type="text" class="form-control" placeholder="Ingresa tu correo electronico">
+    			</div>
+  			</div>
+  			<div class="form-group">
+			    <label>Titulo</label>
+			    <input class="form-control" placeholder="Introduce tu tiltulo">
+			 </div>
+			 <div class="form-group">
+			    <label>Fecha de nacimiento</label>
+			    <input type="date" class="form-control" placeholder="Introduce tu fecha de nacimiento">
+			 </div>
+			 <div class="form-group">
+			    <label>Fecha de hoy</label>
+			    <input type="date" class="form-control" placeholder="Introduce tu fecha de hoy">
+			   	<hr>
+  				<button type="submit" class="btn btn-primary">Registrarse</button>
+  				<button type="reset" class="btn btn-secondary" id="borrar">Cancelar</button>
+		</form>
+	</div>
+
+</div>
+<!--- Final del Employee --->
+
+<!--- Invoice --->
+<div id="invoice" class="offset">
+	
+	<div class="jumbotron">
+		<div class="col-12 narrow text-center">
+			<h1>Facturas</h1> 
+			<form>
+				<div class="form-group">
+    				<label>Fecha de la factura</label>
+    				<input type="date" class="form-control">
+  				</div>
+				<div class="form-group">
+				   <label>Direccion de la Factura</label>
+				   <input class="form-control" placeholder="Introduce la dirección de la factura">
+				</div>
+				<div class="form-group">
+				   <label>Ciudad de la Factura</label>
+				   <input class="form-control" placeholder="Introduce la ciudad de la factura">
+				</div>
+				<div class="form-group">
+				   <label>Estado de la Factura</label>
+				   <input class="form-control" placeholder="Introduce la estado de la factura">
+				</div>
+				<div class="form-group">
+				   <label>Pais de la Factura</label>
+				   <input class="form-control" placeholder="Introduce la pais de la factura">
+				</div>
+				<div class="form-group">
+				   <label>Codigo postal de la Factura</label>
+				   <input class="form-control" placeholder="Introduce la c.p de la factura">
+				</div>
+				<div class="form-group">
+				   <label>Total de la Factura</label>
+				   <input class="form-control" placeholder="Introduce el total de la factura">
+				</div>
+  				<hr>
+  				<button type="submit" class="btn btn-primary">Enviar</button>
+  				<button type="reset" class="btn btn-secondary" id="borrar">Cancelar</button>
+			</form>
+		</div>
+	</div>
+
+</div>
+<!--- Final del Invoice --->
+
+<div id="contacto" class="offset">
+	<footer>
+		<div class="row justify-content-center">
+
+			<div class="col-md-5 text-center"> 
+				<img src="img/maboi.png">
+				<p>Esta pagina fue realizada para la tarea por internet de el maestro Luis Santillán de parte de 2 alumnos.</p>
+				<strong>Programadores</strong>
+				<p>Ángel Demian Lizarraga Ochoa</p>
+				<p>Yahel Alejandro Montero López</p>
+				<a href="https://www.facebook.com/Wildrimen364?ref=bookmarks" target="_blank"><i class="fab fa-facebook-square"></i></a>
+				<a href="https://twitter.com/anchel_tek" target="_blank"><i class="fab fa-twitter-square"></i></a>
+				<a href="https://www.youtube.com/channel/UChq86acMM8c0PzOc1A1dnEg?view_as=subscriber" target="_blank"><i class="fab fa-youtube-square"></i></a>
+			</div>
+			<hr class="socket">
+			&copy; AnchelDev
+
+		</div> 
+	</footer>
+</div>
+
+<!--- Script -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+<!--- Fin de los Script -->
+
+</body>
+</html>
